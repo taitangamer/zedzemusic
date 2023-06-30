@@ -21,10 +21,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Zᴇᴅᴢᴇ ✘")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐓ᴀɪᴛᴀɴ ✘ 𝐌ᴜsɪᴄ")
 
 # Your User ID.
-OWNER_ID = list(map(int, getenv("OWNER_ID", "5301800943").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "1362133845").split()))
 
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
@@ -33,15 +33,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
 # For customized or modified Repository
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/team-katil/zedzemusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/taitangamer/zedzemusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
 # GIT TOKEN ( if your edited repo is private)
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL","https://t.me/katil_bots")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/katilsupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL","https://t.me/taitanoffice")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/world_music_masti")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "5000"))
@@ -113,18 +113,18 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/ff3d94744211c796cf5bb.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/36c9d8f5477ec64ff5f90.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/07b109ac650e5f4fec9e5.jpg",
+    "https://te.legra.ph/file/36c9d8f5477ec64ff5f90.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://telegra.ph/file/1dca3157eb1d637846d87.jpg"
 
-GLOBAL_IMG_URL = "https://telegra.ph/file/7dc2e0a1277c1dd43b40e.jpg"
+GLOBAL_IMG_URL = "https://te.legra.ph/file/36c9d8f5477ec64ff5f90.jpg"
 
-STATS_IMG_URL = "https://telegra.ph/file/99b282829d8e877a099a6.jpg"
+STATS_IMG_URL = "https://te.legra.ph/file/36c9d8f5477ec64ff5f90.jpg"
 
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/29c8494278f990e910893.jpg"
 
@@ -167,9 +167,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://telegra.ph/file/07b109ac650e5f4fec9e5.jpg"
+            PING_IMG_URL = "https://te.legra.ph/file/36c9d8f5477ec64ff5f90.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://telegra.ph/file/ff3d94744211c796cf5bb.jpg"
+            START_IMG_URL = "https://te.legra.ph/file/36c9d8f5477ec64ff5f90.jpg"
