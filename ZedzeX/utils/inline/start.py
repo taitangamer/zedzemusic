@@ -36,7 +36,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="✯ 𝗢𝘄𝗻𝗲𝗿 ✯", url=f"https://t.me/katil_your_dad"
+                text="✯ 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 𝘅𝗗' ✯", url=f"https://t.me/taitangamerz"
             ),
             InlineKeyboardButton(
                 text="✯ 𝗛𝗲𝗹𝗽 ✯", callback_data="settings_back_helper"
@@ -47,13 +47,13 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="✯ 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 ✯", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text="✯ 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 ✯", url=f"https://t.me/katil_bots",
+                text="✯ 𝗨𝗽𝗱𝗮𝘁𝗲𝘀 ✯", url=f"https://t.me/taitanoffice",
             )
         ],
         [
             InlineKeyboardButton(
-                text="🌱ƨσʋяcɛ🌱",
-                url=f"https://github.com/team-katil/zedzemusic",
+                text="♛ 𝗢𝘄𝗻𝗲𝗿 ♛",
+                url=f"https://t.me/taitangamer",
             )
         ],
      ]

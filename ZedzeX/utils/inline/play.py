@@ -241,7 +241,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="★ ᴄʜᴀᴛ ɢʀᴏᴜᴘ ★", url="https://t.me/unique_chat_world"
+                text="★ ɢʀᴏᴜᴘ ★", url="https://t.me/world_music_masti"
             ),
         ],
          [
@@ -492,7 +492,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
            InlineKeyboardButton(
-                text="★ ᴄʜᴀᴛ ɢʀᴏᴜᴘ ★", url="https://t.me/unique_chat_world"
+                text="★ ɢʀᴏᴜᴘ ★", url="https://t.me/world_music_masti"
             ),
         ],
          [
@@ -637,7 +637,7 @@ def track_markup(_,chat_id, videoid, user_id, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="★ ᴄʜᴀᴛ ɢʀᴏᴜᴘ ★", url="https://t.me/unique_chat_world"
+                text="★ ɢʀᴏᴜᴘ ★", url="https://t.me/world_music_masti"
             ),
         ],
         [
@@ -678,7 +678,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="★ ᴄʜᴀᴛ ɢʀᴏᴜᴘ ★", url="https://t.me/unique_chat_world"
+                text="★ ɢʀᴏᴜᴘ ★", url="https://t.me/world_music_masti"
             ),
         ],
         [
@@ -825,7 +825,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="★ ᴄʜᴀᴛ ɢʀᴏᴜᴘ ★", url="https://t.me/unique_chat_world"
+                text="★ ɢʀᴏᴜᴘ ★", url="https://t.me/world_music_masti"
             ),
         ],
          [
