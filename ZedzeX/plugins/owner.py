@@ -17,13 +17,13 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
     & ~filters.edited & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/9810c75612082e3c8f8fb.jpg",
+        photo=f"https://te.legra.ph/file/d6ab6a5f7d08f5624a625.jpg",
         caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐃𝐌❤️𝐎𝐖𝐍𝐄𝐑🍁""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "༒︎★•亗『𝐊𝐀𝐓𝐈𝐋』亗•★ ", url=f"https://t.me/katil_your_dad")
+                        "༒︎★•亗『𝐓𝐀𝐈𝐓𝐀𝐍』亗•★ ", url=f"https://t.me/taitangamer")
                 ]
             ]
         ),
@@ -35,13 +35,13 @@ async def help(client: Client, message: Message):
     & ~filters.edited & filters.private & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/9810c75612082e3c8f8fb.jpg",
+        photo=f"https://te.legra.ph/file/d6ab6a5f7d08f5624a625.jpg",
         caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐃𝐌❤️𝐎𝐖𝐍𝐄𝐑🍁""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "༒︎★•亗『𝐊𝐀𝐓𝐈𝐋』亗•★ ", url=f"https://t.me/katil_your_dad")
+                        "༒︎★•亗『𝐓𝐀𝐈𝐓𝐀𝐍』亗•★ ", url=f"https://t.me/taitangamer")
                 ]
             ]
         ),
@@ -49,7 +49,7 @@ async def help(client: Client, message: Message):
 
 
 @app.on_message(
-    filters.command("katil")
+    filters.command("taitan")
     & filters.group
     & ~filters.edited & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
@@ -105,13 +105,13 @@ async def help(client: Client, message: Message):
     & ~filters.edited & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/ff3d94744211c796cf5bb.jpg",
-        caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐆𝐄𝐓🌱𝐑𝐄𝐏𝐎🍁""",
+        photo=f"https://te.legra.ph/file/d6ab6a5f7d08f5624a625.jpg",
+        caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐃𝐌❤️𝐎𝐖𝐍𝐄𝐑🍁""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://github.com/team-katil/zedzemusic")
+                        "༒︎★•亗『𝐓𝐀𝐈𝐓𝐀𝐍』亗•★ ", url=f"https://t.me/taitangamer")
                 ]
             ]
         ),
@@ -123,13 +123,13 @@ async def help(client: Client, message: Message):
     & ~filters.edited & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/ff3d94744211c796cf5bb.jpg",
-        caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐆𝐄𝐓🌱𝐑𝐄𝐏𝐎🍁""",
+        photo=f"https://te.legra.ph/file/d6ab6a5f7d08f5624a625.jpg",
+        caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐃𝐌❤️𝐎𝐖𝐍𝐄𝐑🍁""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://github.com/team-katil/zedzemusic")
+                        "༒︎★•亗『𝐓𝐀𝐈𝐓𝐀𝐍』亗•★ ", url=f"https://t.me/taitangamer")
                 ]
             ]
         ),
@@ -141,13 +141,13 @@ async def help(client: Client, message: Message):
     & ~filters.edited & filters.private & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/ff3d94744211c796cf5bb.jpg",
-        caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐆𝐄𝐓🌱𝐑𝐄𝐏𝐎🍁""",
+        photo=f"https://te.legra.ph/file/d6ab6a5f7d08f5624a625.jpg",
+        caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐃𝐌❤️𝐎𝐖𝐍𝐄𝐑🍁""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://github.com/team-katil/zedzemusic")
+                        "༒︎★•亗『𝐓𝐀𝐈𝐓𝐀𝐍』亗•★ ", url=f"https://t.me/taitangamer")
                 ]
             ]
         ),
