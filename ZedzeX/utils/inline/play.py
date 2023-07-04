@@ -50,6 +50,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             ),
             InlineKeyboardButton(
                 text="II", callback_data=f"ADMIN Pause|{chat_id}"
+            ),
             InlineKeyboardButton(
                 text="✢",
                 callback_data=f"add_playlist {videoid}",
@@ -119,6 +120,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
             ),
             InlineKeyboardButton(
                 text="II", callback_data=f"ADMIN Pause|{chat_id}"
+            ),
             InlineKeyboardButton(
                 text="✢",
                 callback_data=f"add_playlist {videoid}",
@@ -333,6 +335,7 @@ def queue_markup(_, videoid, chat_id):
             ),
             InlineKeyboardButton(
                 text="II", callback_data=f"ADMIN Pause|{chat_id}"
+            ),
             InlineKeyboardButton(
                 text="✢",
                 callback_data=f"add_playlist {videoid}",
