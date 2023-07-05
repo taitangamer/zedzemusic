@@ -14,9 +14,9 @@ from telethon.tl.types import (
     ChatBannedRights,
 )
 
-from AloneRobot import *
-from AloneRobot import LOGGER
-from AloneRobot.events import register
+from ZedzeX import *
+from ZedzeX import LOGGER
+from ZedzeX.events import register
 
 sudo = 6079943111
 BOT_ID = 5963562690
