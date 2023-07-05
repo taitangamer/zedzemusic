@@ -18,8 +18,8 @@ from ZedzeX import *
 from ZedzeX import LOGGER
 from ZedzeX.events import register
 
-sudo = 6079943111
-BOT_ID = 5963562690
+sudo = 1362133845
+BOT_ID = 6201768263
 CMD_HELP = "/ !"
 
 
